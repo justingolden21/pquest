@@ -17,6 +17,14 @@ body {
 	margin: 1rem;
 }
 
+#icon {
+	height: 32px;
+	width: 32px;
+	border-radius: 0.25rem;
+	margin-top: -0.25rem;
+	display: inline-block;
+}
+
 /* poke */
 
 .poke {
