@@ -1,0 +1,63 @@
+/* reset */
+
+img, button {
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+}
+::-moz-selection {
+	background: #e6e6e6;
+}
+::selection {
+	background: #e6e6e6;
+}
+
+body {
+	margin: 1rem;
+}
+
+/* poke */
+
+.poke {
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+.poke-face {
+	background-image: url(../img/faces.png);
+	height: 64px;
+	width: 64px;
+	background-size: 64px;
+	margin: 0.25rem 1rem;
+	border-radius: 0.5rem;
+	border: 2px solid #4a5568; /* https://tailwindcss.com/docs/background-color#app */
+	box-sizing: content-box;
+	cursor: pointer;
+}
+.poke-face:hover {
+	box-shadow: 0.25rem 0.25rem #1a202c;
+}
+
+.poke-name {
+	font-weight: medium;
+	color: #4a5568;
+}
+
+@media (max-width: 768px) {
+	body {
+		margin: 0.5rem;
+	}
+	.poke {
+		margin-bottom: 0;
+	}
+	.poke-face {
+		height: 32px;
+		width: 32px;
+		background-size: 32px;
+		margin: 0.25rem;
+	}
+	.poke-name {
+		display: none;
+	}
+}

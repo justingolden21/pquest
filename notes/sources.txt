@@ -1,0 +1,8 @@
+sources
+
+img:
+https://pokequestrecipes.me/static/media/pokeSpritesnq8.f03d06e5.png
+
+data:
+https://hidden50.github.io/pq/js/pokeData.js
+
