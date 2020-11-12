@@ -1,0 +1,22 @@
+click a pokemon to open it in modal
+link to modal with address bar attributes
+show best recipe and percent and recommended ingredients (serebii)
+show other pokemon and their percents (smaller)
+scroll to see other recipes for that pokemon
+pokemon, recipes, and ingredients are clickable
+top of pokemon list has check btn for in dex and star btn for favorite
+top of pokemon list also has dropdown for type, and searchbar for pokemon
+autocomplete search bar
+list of pokemon lets you sort by in dex, not in dex, favorite
+see a sortable table of pokemon stats, can click pokemon
+types section shows all types, click one to find recipes
+click recipe to find recommended ingredients, other ingredients, and pokemon and their percentages
+click ingredients to see their qualities (hard, soft, etc) and best location to find
+list of locations and their ingredient wheels
+table list like on rankedboost
+about btn with links to discord, reddit, spreadsheets, tier lists, speedruns, etc
+about also says by me, version, contact, etc
+when click favorite prompted to store cookies (to remember favorites)
+show each pokemon's: bingos (and what they turn into evolving), moves (and types and their stats, clickable moves and move dex), stats for each pot, stone chances and calculator (like hidden50), and evolve lvl / evolution line, attack type (range or melee)
+show about section explaining IVs and pot stats (like serebii)
+move dex shows pokemon with move, possible stones, etc
