@@ -18,10 +18,10 @@ body {
 }
 
 #icon {
-	height: 32px;
-	width: 32px;
-	border-radius: 0.25rem;
-	margin-top: -0.25rem;
+	height: 48px;
+	width: 48px;
+	border-radius: 0.5rem;
+	margin-top: -0.5rem;
 	display: inline-block;
 }
 
@@ -55,6 +55,11 @@ body {
 @media (max-width: 768px) {
 	body {
 		margin: 0.5rem;
+	}
+	#icon {
+		width: 24px;
+		height: 24px;
+		border-radius: 0.25rem;
 	}
 	.poke {
 		margin-bottom: 0;

@@ -20,3 +20,5 @@ when click favorite prompted to store cookies (to remember favorites)
 show each pokemon's: bingos (and what they turn into evolving), moves (and types and their stats, clickable moves and move dex), stats for each pot, stone chances and calculator (like hidden50), and evolve lvl / evolution line, attack type (range or melee)
 show about section explaining IVs and pot stats (like serebii)
 move dex shows pokemon with move, possible stones, etc
+quick links to tier list, speedruns, etc
+checkbox to show all pokemon or only cookable
