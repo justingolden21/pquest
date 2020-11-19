@@ -35,7 +35,7 @@ body {
 }
 input:checked ~ .toggle__dot {
 	transform: translateX(100%);
-	background-color: #48bb78;
+	background-color: #EF4444; /*red 500*/
 }
 
 
@@ -44,7 +44,7 @@ input:checked ~ .toggle__dot {
 *:focus {
 	outline: none !important;
 	/*from tailwind*/
-	box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+	box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.5); /*red 500*/
 }
 
 
@@ -63,9 +63,9 @@ input:checked ~ .toggle__dot {
 	height: 64px;
 	width: 64px;
 	background-size: 64px;
-	margin: 0.25rem 1rem;
+	margin: 0.25rem 0.5rem;
 	border-radius: 0.5rem;
-	border: 2px solid #4a5568; /* https://tailwindcss.com/docs/background-color#app */
+	border: 2px solid #4B5563; /* https://tailwindcss.com/docs/background-color#app */
 	box-sizing: content-box;
 	cursor: pointer;
 }
@@ -75,7 +75,8 @@ input:checked ~ .toggle__dot {
 
 .poke-name {
 	font-weight: medium;
-	color: #4a5568;
+	color: #4B5563; /*gray 600*/
+	font-size: 80%;
 }
 
 button:active {

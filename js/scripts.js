@@ -38,7 +38,7 @@ $( ()=> {
 	// }
 
 	// make enter and space work on focused toggles
-	$(document).on('keydown', function (event) {
+	$(document).on('keydown', (event)=> {
 		if( (event.which == 13 || event.which == 32) && $(event.target).hasClass('toggle__element') ) { // 13 and 32 enter and space
 			event.preventDefault();
 			$(event.target).click();
@@ -61,6 +61,19 @@ $( ()=> {
 			}
 		});
 	});
+
+	// open pokemon when clicked or enter
+	$('.poke').on('keydown', (event)=> {
+		if(event.which == 13) // enter
+			openPokemon($(event.target).find('.poke-name').html() );
+	});
+	$('.poke-face').click( (event)=> {
+		openPokemon($(event.target).parent().find('.poke-name').html() );
+	});
+
+	function openPokemon(name) {
+		console.log(name);
+	}
 
 
 });
